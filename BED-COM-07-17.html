@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assingment 1</title>
+	<link rel="stylesheet" type="text/css" href="BED-COM-07-17.css">
+</head>
+<body>
+		<style type="text/css; padding:2px; auto">
+
+			</style>
+		<imga arc="nt6.jpg" height="500"/>
+        <div class="menu-toggle"><img src="img/menu.png" alt=""/></div>
+	<div class="image">
+	<h1>
+		This is Alex Banda
+		
+	</h1>
+		
+		<img src="img/Pox.jpg"; width=200px;>
+		
+		<div id="info">
+			<h3>Reg #....BED/COM/07/17 </h3>
+			<p>
+				Alex Banda is a Chancellor college computer science student  
+			</p>
+			<p>
+				And is self-motivated student who always aims high in life
+			</p>
+			<p>
+				And utilise any opportunity that comes in his way productively
+			</p>
+			<a id = "imga"href="https://free.facebook.com/" " title="login to free facebook"><h8>fecebook</h8></a>
+			<a id = "imga"href="https://mail.google.com" " title="login to gmail"><h8>Gmail</h8></a>
+			<a id = "imga"href="https://twitter.com/login?lang=en" " title="login to twitter"><h8>Twitter</h8></a>
+			<a id = "imga"href="https://www.instagram.com/accounts/login/" " title="welocame to instagram"><h8>Instagram</h8></a>
+			<a href="imga"href="https://unsplash.com/search/photos/natural" title="download more nature images"><h5>Find images</h5></a>
+			<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/form.html" " title="click to fill the form of project"><h5>Form Of Progects</h5></a>
+		</div>
+	</div>
+	<!-------------------------------form--------------------------------------------->
+	<style type="text/css">
+		form {background-color:mediumaquamarine; padding:10px; text-align: left}
+		script:hover{background-color: blueviolet; color: rgb(160, 245, 2); text-decoration: underline; font-weight: bold; color: limegreen}
+		script, input:hover{background-color: rgb(3, 0, 167); color: rgb(53, 68, 24); text-decoration: underline; font-weight: bold; color: magenta}
+		script, textarea:hover{background-color: rgb(3, 0, 167); color: rgb(53, 68, 24); text-decoration: underline; font-weight: bold; color: magenta}
+	</style>
+	<script type="text/javascript">
+    function convert()
+    {
+	  var text=document.getElementById("url").value;
+	  var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+	  var text1=text.replace(exp, "<a href='$1'>$1</a>");
+	  var exp2 =/(^|[^\/])(www\.[\S]+(\b|$))/gim;
+	  document.getElementById("converted_url").innerHTML=text1.replace(exp2, '$1<a target="_blank" href="http://$2">$2</a>');
+    }
+  </script>
+	<div id="wrpper">
+			<form method="POST" action="form.php" onsubmit="return Validate()" name="vform">
+					<div>
+							Projectname:
+							 <br>
+							 <label><input id="item" type="text" placeholder="" required/></label>
+							 <br>
+					</div>
+					<div>
+							ProjectDescription
+							<br/>
+							<textarea id="url" name="ProjectDescription" class="textImput"  Placeholder="Enter Some Text With Links">
+								</textarea>
+					</div>
+							Date
+							<br/>
+							<input type="date" name="date" class="date" placeholder="dd-mm-yyy">
+							<div id="name error" class="val_error"></div>
+					<div>
+
+						  <input type="button" value=" <Submit> " onclick="convert();">
+  							<p id="converted_url"></p>
+
+					
+	<!-------------------------------MY PROJECTS-------------------------------------->
+
+	<section id="project">
+			<h1 class="lg-heading">
+					<a href="" title="this is page for my progect">My Projects</a>
+			</h1>
+			<h2 class="sm-heading" background-color: blue>
+					Here are some of my projects
+			</h2>
+			<div class="project"> 
+				<style type="text/css">
+					h1:hover{background-color: rgb(11, 1, 37); color: rgb(245, 230, 97); font-weight: bold}
+					h2 {background-color:red; padding:10px; text-align: center}
+					h6:hover{background-color: rgb(0, 0, 0); color: rgb(18, 224, 224);}
+					h2:hover{background-color: rgb(6, 7, 1); color: rgb(236, 245, 244); text-decoration: underline; font-weight: bold}
+					a:hover{background-color: rgb(110, 4, 96); color: rgb(241, 249, 250); font-weight: bold}
+					h8:hover{background-color: rgb(208, 226, 43); color: rgb(2, 3, 0); font-weight: bold}
+					p:hover{background-color: rgb(131, 3, 3); color: rgb(253, 255, 250);}
+					div:hover{background-color:greenyellow; color: rgb(8, 52, 247);}
+				</style>
+				<div class="job job-1">
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro4.html" " title="see more infor about project one">
+								<h8>123 Webshop</a>
+
+					</h3>
+					<h6>Full Stack Developer</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+	
+				<div class="job job-2">
+
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro5.html" " title="go to project number 5">
+								<h8>Designers AB</a>
+					</h3>
+					<h6>Front End Developer</h6>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+	
+				<div class="job job-3">
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro6.html"><h8>Designer AB</h8></a>
+						</h3>
+					<h6>Graphic Designer</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+	
+				<div class="job job-4">
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro1.html"><h8>444 Webshop</h8></a>
+					</h3>
+					<h6>Full Stack Developer</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+	
+				<div class="job job-5">
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro2.html"><h8>Designers ABC</h8></a>
+					</h3>
+					<h6>Front End Developer</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+	
+				<div class="job job-6">
+					<h3 class="ty">
+							<a id = "imga"href="file:///C:/Users/Alex%20Banda/Desktop/bed-com-07-17%20Assignment%201/pro3.html"><h8>Webworks</h8></a>
+					</h3>
+					<h6>Web Designing</h6>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
+						expedita dolor necessitatibus deserunt nemo.</p>
+				</div>
+			</div>
+		</section>
+	<!--------------------------WORK EXPERIENCE----------------------------------->
+
+	<section id="work">
+	  <h1 class="lex-heading">
+		My Work
+	  </h1>
+	  <h2 class="sm-heading"  background: #2b2b2b;>
+		The following are projects!
+	  </h2>
+	  <div class="projects">
+		<div class="item">
+		  <a href="#!">
+			<img src="img/pro1.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> Work here
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="img/pro2.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> Bussiness
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="img/nt16.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> Github
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="img/pro4.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> Github
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="img/pro5.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> Jamalife
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="img/pro6.jpg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-dark">
+			<i class="fab fa-github"></i> WorkShirt
+		  </a>
+		</div>
+	  </div>
+	</section>
+	<!--------------------------------FOOTER---------------------------------->
+
+  <footer id="footer">
+    Copyright © 2019 | Designed by Alex Banda
+  </footer>
+</body>
+</html>
